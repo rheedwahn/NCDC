@@ -1,0 +1,25 @@
+{
+  "name": "ridwan_iridwan/ncdc",
+  "description": "Scrap NDCD website to confirm covid19 cases to apis",
+  "type": "project",
+  "keywords": ["NCDC", "covid19", "Nigerian Cases"],
+  "authors": [
+    {
+      "name": "Busari Ridwan",
+      "email": "ridwan2bus@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "danielstjules/stringy": "~3.1.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
+
